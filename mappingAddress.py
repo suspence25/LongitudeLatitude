@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
-CHROMEDRIVER_PATH = r"C:\Users\shill\AppData\Local\Programs\Python\Python37-32\chromedriver.exe"
+CHROMEDRIVER_PATH = r"C:\Users\****\AppData\Local\Programs\Python\Python37-32\chromedriver.exe"
 options = Options()
 options.headless = True
 #options.add_argument('--disable-gpu')  # Last I checked this was necessary.
@@ -11,7 +11,7 @@ driver = webdriver.Chrome(CHROMEDRIVER_PATH, options=options)
 
 url = 'https://www.google.com/maps/place/7900+Shelbyville+Rd,+Louisville,+KY+40222'
 print(url)
-#driver = webdriver.Chrome(r"C:\Users\shill\AppData\Local\Programs\Python\Python37-32\chromedriver.exe")
+#driver = webdriver.Chrome(r"C:\Users\***\AppData\Local\Programs\Python\Python37-32\chromedriver.exe")
 
 driver.get(url)
 
