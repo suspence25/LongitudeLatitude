@@ -13,8 +13,7 @@ def comma_rep(address):
 
 address = [
     '401 Bullitt Ln, Louisville, KY 40222',
-    #'101 Bullitt Ln # 305, Louisville, KY 40222',
-   # '7900 Shelbyville Rd Ste B, Louisville, KY 40222'
+  
 ]
 
 start_url = 'https://www.google.com/maps/place/'
